@@ -6,13 +6,13 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className='footer-logos'>
-                <FaXTwitter />
+                <Link style={{ color: 'white' }} to="https://www.facebook.com/profile.php?id=61561523865585"><FaFacebook />
+                </Link>
                 <Link style={{ color: 'white' }} to="https://www.instagram.com/collegelens24?igsh=ZWxnYzZyZnBneTNm"><FaInstagram /></Link>
-                <FaLinkedinIn />
             </div>
             <div className='footer-links'>
-                <li>Advertising T&C's</li>
-                <li>Privacy Policy</li>
+                <li>Admissions</li>
+                <li>Colleges</li>
                 <li>Blog</li>
                 <li>Do not sell my personal information</li>
                 <li>Sitemap</li>
