@@ -1,0 +1,164 @@
+.poster {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    background: #348F50;
+    padding: 1em 2.5em;
+    background: -webkit-linear-gradient(to left, #56B4D3, #348F50);
+    background: linear-gradient(to left, #56B4D3, #348F50);
+}
+
+.poster-sol {
+    color: rgb(144, 19, 19);
+}
+
+.button-5 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+    transform: translateY(-1px);
+}
+
+.button-5:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+.poster h5 {
+    text-transform: uppercase;
+}
+
+.about-details {
+    padding: 70px 50px;
+}
+
+.gif-heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+
+}
+
+/* .g-heading {
+    width: 30%;
+} */
+
+.g-heading>h1 {
+    margin: 0px;
+}
+
+.gif>img {
+    width: 90%;
+    height: auto;
+}
+
+.para-details {
+    margin: 30px 0px;
+}
+
+.missions {
+    padding: 45px 100px;
+    background-color: black;
+    color: white;
+}
+
+.our-mission {
+    width: 100%;
+
+}
+
+.our-mission>p {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.join-team {
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mission-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 30px 80px;
+}
+
+.mission-list>div {
+    width: 100%;
+    margin: auto;
+}
+
+.mission-list>div>h1 {
+    text-align: left;
+}
+
+.mission-list>div>p {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 800px) {
+    .poster {
+        padding: 3em 0.5em;
+    }
+
+    .gif-heading {
+        display: block;
+    }
+
+    .gif>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .missions {
+        padding: 45px 50px;
+    }
+
+    .our-mission {
+        width: 100%;
+    }
+
+    .mission-list {
+        display: block;
+        padding: 45px 0px;
+    }
+}

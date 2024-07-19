@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    background-color: black;
+    /* font-size: 30px; */
+}
+
+.footer-logos {
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.footer-links {
+    display: flex;
+    gap: 10px;
+    color: #348F50;
+    flex-wrap: wrap;
+}
+
+.footer-links>li {
+    list-style: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .footer {
+        display: block;
+    }
+
+    .footer-links {
+        padding-top: 20px;
+    }
+
+}
