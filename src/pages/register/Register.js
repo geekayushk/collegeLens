@@ -101,7 +101,7 @@ const Register = () => {
                         </div>
                         <div className="form-group">
                             <label htmlFor="phone">Phone Number<span className="required">*</span></label>
-                            <input type="tel" id="phone" name="phone" placeholder="9999999999" value={formData?.phone} onChange={handleChange} required pattern="[0-9]{10}" />
+                            <input type="tel" id="phone" name="phone" placeholder="9999999999" value={formData?.phone} onChange={handleChange} required pattern="^\d{10}$" title='"Phone number should be 10 digits"' />
                         </div>
                         <div className="form-group">
                             <label htmlFor="course">Course<span className="required">*</span></label>
