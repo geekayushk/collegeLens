@@ -16,6 +16,18 @@
 
 }
 
+.navlink {
+    color: white;
+    list-style: none;
+    text-decoration: none
+}
+
+.active-link {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+
 .nav-list {
     display: flex;
     gap: 20px;

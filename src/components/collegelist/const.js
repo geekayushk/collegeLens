@@ -1,0 +1,1 @@
+export const COLLEGE_IAMGE_NAME = ['AMC.jpeg', 'Atria.png', 'BIT.jpeg', 'BMSCE.jpeg', 'BNMIT.jpeg', 'Christ.jpeg', 'DSI.jpeg', 'GAT.jpeg', 'Jain.jpeg', 'JSS.jpeg', 'KSIT.jpeg', 'NHCE.jpeg', 'NMIT.jpeg', 'Oxford.jpeg', 'PES.jpeg', 'Presidency.jpeg', 'Reva.jpeg', 'RMSIT.jpeg', 'RNSIT.jpeg', 'RVCE.jpeg']
