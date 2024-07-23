@@ -4,6 +4,8 @@ import "./Home.css"
 import Gif from '../../assets/Gif.jpg'
 import Carousel from '../../components/carousel/Carousel'
 import Footer from '../../components/footer/Footer'
+import CollegeList from '../../components/collegelist/CollegeList'
+
 const Home = () => {
     const images = [
         'https://t3.ftcdn.net/jpg/03/88/97/92/360_F_388979227_lKgqMJPO5ExItAuN4tuwyPeiknwrR7t2.jpg',
@@ -13,11 +15,15 @@ const Home = () => {
     return (
         <>
             <Navbar />
+
             <div className='poster'>
                 <h2>India's Best Ever Admission Assistance Portal</h2>
                 <p className='poster-sol'>One Stop Solution For All College Seekers</p>
                 <p>A portal that has all the information related to college and can help you to get admission in your dream college.</p>
                 <a href="tel:+919153375491" className="button-5" role="button">Call Now</a>
+            </div>
+            <div>
+                <Carousel images={images} />
             </div>
             <div className='about-details'>
                 <div className='gif-heading'>
@@ -74,9 +80,7 @@ const Home = () => {
 
                 </div>
             </div>
-            <div>
-                <Carousel images={images} />
-            </div>
+            <CollegeList />
             <Footer />
         </>
     )
