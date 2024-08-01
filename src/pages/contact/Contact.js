@@ -29,7 +29,8 @@ const Contact = () => {
                     <h2>Contact Numbers</h2>
                     <ul>
                         <li><IoCallSharp />+916361162252</li>
-                        <li><IoCallSharp />+916361162252</li>
+                        <li><IoCallSharp />+919153375491</li>
+                        <li><IoCallSharp />+918861560895</li>
                     </ul>
                 </div>
                 <div class="contact-form">
