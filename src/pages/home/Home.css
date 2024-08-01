@@ -8,11 +8,56 @@
     background: linear-gradient(to left, #56B4D3, #348F50);
 }
 
+
+
 .poster-sol {
     color: rgb(144, 19, 19);
 }
 
 
+.course-container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    margin: 2em 0;
+    text-align: left;
+}
+
+.course-column {
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.course-column h3 {
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+
+.course-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.course-list li {
+    font-size: 0.6em;
+    margin: 0.5em 0;
+    color: #ecf0f1;
+    width: fit-content;
+}
+
+.linklist {
+    text-decoration: none;
+}
+
+.linklist:hover {
+    cursor: pointer;
+}
+
+.course-list li:hover {
+    border-bottom: 1px solid white;
+}
 
 
 .button-5 {
@@ -163,5 +208,15 @@
     .mission-list {
         display: block;
         padding: 45px 0px;
+    }
+
+    .course-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course-column {
+        width: 90%;
+        margin-bottom: 1em;
     }
 }

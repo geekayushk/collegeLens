@@ -21,24 +21,25 @@ const Footer = () => {
                 <div>
                     <h3>UG</h3>
                     <ul>
-                        <li>MBBS</li>
-                        <li>Engineering</li>
-                        <li>BBA</li>
-                        <li>BCA</li>
-                        <li>BA</li>
-                        <li>BCOM</li>
+                        <Link to="/register" className='flinklist'><li>MBBS</li></Link>
+                        <Link to="/register" className='flinklist'><li>Engineering</li></Link>
+                        <Link to="/register" className='flinklist'><li>BBA</li></Link>
+                        <Link to="/register" className='flinklist'><li>BCA</li></Link>
+                        <Link to="/register" className='flinklist'><li>BA</li></Link>
+                        <Link to="/register" className='flinklist'><li>BCOM</li></Link>
                     </ul>
                 </div>
                 <div>
                     <h3>PG</h3>
                     <ul>
-                        <li>NEET-PG</li>
-                        <li>M-TECH</li>
-                        <li>MBA</li>
-                        <li>MCA</li>
-                        <li>MSC</li>
+                        <Link to="/register" className='flinklist'><li>NEET-PG</li></Link>
+                        <Link to="/register" className='flinklist'><li>M-TECH</li></Link>
+                        <Link to="/register" className='flinklist'><li>MBA</li></Link>
+                        <Link to="/register" className='flinklist'><li>MCA</li></Link>
+                        <Link to="/register" className='flinklist'><li>MSC</li></Link>
                     </ul>
                 </div>
+
             </div>
         </div>
     )

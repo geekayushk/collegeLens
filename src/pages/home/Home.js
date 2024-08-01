@@ -5,6 +5,7 @@ import Gif from '../../assets/Gif.jpg'
 import Carousel from '../../components/carousel/Carousel'
 import Footer from '../../components/footer/Footer'
 import CollegeList from '../../components/collegelist/CollegeList'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     const images = [
@@ -18,7 +19,31 @@ const Home = () => {
 
             <div className='poster'>
                 <h2>India's Best Ever Admission Assistance Portal</h2>
-                <p className='poster-sol'>One Stop Solution For All College Seekers</p>
+                {/* <p className='poster-sol'>One Stop Solution For All College Seekers</p> */}
+                <div className="course-container">
+                    <div className="course-column">
+                        <h3>UG</h3>
+                        <ul className="course-list">
+                            <Link to="/register" className='linklist'><li>MBBS</li></Link>
+                            <Link to="/register" className='linklist'><li>Engineering</li></Link>
+                            <Link to="/register" className='linklist'><li>BBA</li></Link>
+                            <Link to="/register" className='linklist'><li>BCA</li></Link>
+                            <Link to="/register" className='linklist'><li>BA</li></Link>
+                            <Link to="/register" className='linklist'><li>BCOM</li></Link>
+                        </ul>
+                    </div>
+                    <div className="course-column">
+                        <h3>PG</h3>
+                        <ul className="course-list">
+                            <Link to="/register" className='linklist'><li>NEET-PG</li></Link>
+                            <Link to="/register" className='linklist'><li>M-TECH</li></Link>
+                            <Link to="/register" className='linklist'><li>MBA</li></Link>
+                            <Link to="/register" className='linklist'><li>MCA</li></Link>
+                            <Link to="/register" className='linklist'><li>MSC</li></Link>
+                        </ul>
+                    </div>
+
+                </div>
                 <p>A portal that has all the information related to college and can help you to get admission in your dream college.</p>
                 <a href="tel:+919153375491" className="button-5" role="button">Call Now</a>
             </div>
